@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Careers - FairDebt Solutions | Join Our Team</title>
+    <meta name="description" content="Join FairDebt Solutions Private Limited. Explore career opportunities in debt recovery, customer support, telecalling and more. Submit your application online." />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/services/">Services</a>
+                <a href="/career/" class="active">Careers</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/blog/">Blog</a>
+                <a href="/contact/" class="nav-cta-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="shape-blob shape-blob-1"></div>
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="800">Careers</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Fairdebt Solutions Private Limited</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="content-box" data-aos="fade-up" data-aos-duration="800">
+                <p style="font-size:1.05rem;line-height:1.8;">At <strong>FairDebt</strong>, we believe in building a team of dedicated and talented professionals who can contribute to our continued success. Please fill out the form below and upload your CV to express your interest in joining our organization.</p>
+                <p style="font-size:1.05rem;line-height:1.8;">Once your form is submitted, our HR team will carefully evaluate your profile based on our current job openings and requirements. If your qualifications and experience align with our needs, you will be shortlisted, and a member of our HR team will contact you to discuss the next steps, including the interview process and other formalities.</p>
+                <p style="font-size:1.05rem;line-height:1.8;">We look forward to having you on board and working together towards achieving great milestones!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background:var(--off-white);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+                <span class="section-label">Apply Now</span>
+                <h2 class="section-title">Join Our Team</h2>
+            </div>
+            <div class="content-box careers-form" data-aos="fade-up" data-aos-duration="800">
+                <form id="careerForm" enctype="multipart/form-data">
+                    <div class="form-row">
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500">
+                            <label for="careerName">Full Name</label>
+                            <input type="text" id="careerName" name="name" class="form-control" placeholder="Enter your full name" required />
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="50">
+                            <label for="careerEmail">Email</label>
+                            <input type="email" id="careerEmail" name="email" class="form-control" placeholder="Enter your email" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <label for="careerPhone">Phone Number</label>
+                            <input type="tel" id="careerPhone" name="phone" class="form-control" placeholder="Enter your phone number" pattern="\d{10}" required />
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">
+                            <label for="careerPosition">Position Applied For</label>
+                            <input type="text" id="careerPosition" name="position" class="form-control" placeholder="Enter the position" required />
+                        </div>
+                    </div>
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <label for="careerCv">Upload CV</label>
+                        <input type="file" id="careerCv" name="cv" class="form-control" accept=".pdf,.doc,.docx" required />
+                        <small style="color:var(--text-light);font-size:0.85rem;">Accepted formats: .pdf, .doc, .docx</small>
+                    </div>
+                    <div class="text-center" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="250">
+                        <button type="submit" class="btn-primary">Submit Application <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="success-modal" id="successModal">
+        <div class="success-modal-content">
+            <div class="icon"><i class="fas fa-check"></i></div>
+            <h3>Application Submitted</h3>
+            <p>Your application has been sent successfully. HR will contact you soon.</p>
+            <button class="btn-modal-close" onclick="closeModal('successModal')">Close</button>
+        </div>
+    </div>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a href="https://wa.me/9180XXXXXXXX?text=Hello%20FairDebt%20Solutions" class="whatsapp-float" target="_blank" rel="noopener" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1350,50 1440,40 L1440,80 L0,80 Z" fill="#0f1b2d"/>
+            </svg>
+        </div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand" data-aos="fade-up" data-aos-duration="800">
+                        <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+                        <h3>Fairdebt Solutions Private Limited</h3>
+                        <p>Your trusted partner for debt collection, customer support, and BPO services since 2021.</p>
+                        <div class="footer-social">
+                            <button onclick="visitInstagram()" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                            <button onclick="sendEmail()" aria-label="Email"><i class="fas fa-envelope"></i></button>
+                            <button onclick="visitTwitter()" aria-label="Twitter"><i class="fab fa-twitter"></i></button>
+                            <button onclick="visitLinkedIn()" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="/telicalling/">Telecalling</a></li>
+                            <li><a href="/chat-support/">Chat Support</a></li>
+                            <li><a href="/email-support/">Email Support</a></li>
+                            <li><a href="/customer-support/">Customer Support</a></li>
+                            <li><a href="/services/">All Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="/about/">About Us</a></li>
+                            <li><a href="/clients/">Partner with Us</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="/faq/">FAQ</a></li>
+                            <li><a href="/career/">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <h4>Contact</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-globe"></i> <a href="https://www.fairdebt.in" target="_blank">www.fairdebt.in</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:superadmin@fairdebt.in">superadmin@fairdebt.in</a></p>
+                            <p><i class="fas fa-map-marker-alt"></i> 2744, 15th Cross, HSR Layout, Bengaluru 560102</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; <span class="copyright-year">2025</span> Fairdebt Solutions Private Limited. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy/">Privacy Policy</a>
+                    <a href="/terms/">Terms &amp; Conditions</a>
+                    <a href="/corporate/">Corporate Info</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

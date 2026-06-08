@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - FairDebt Solutions | Debt Recovery & Business Support</title>
+    <meta name="description" content="Explore FairDebt Solutions' professional services: telecalling, chat support, email support, customer support, commercial debt recovery, credit reporting, debt consulting, and loan recovery." />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/services/" class="active">Services</a>
+                <a href="/career/">Careers</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/blog/">Blog</a>
+                <a href="/contact/" class="nav-cta-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="shape-blob shape-blob-1"></div>
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="800">Our Services</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Empowering Your Business with Professional Support Services</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+                <span class="section-label">What We Offer</span>
+                <h2 class="section-title">Services Offered</h2>
+                <p class="section-subtitle">Streamline your operations and achieve your business goals with our expert telecalling, chat, email, and customer support solutions.</p>
+            </div>
+            <div class="services-subpage-grid">
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <div>
+                        <h4>Commercial Debt Recovery</h4>
+                        <p>Recover outstanding debts efficiently while maintaining strong customer relationships. Our tailored solutions focus on strategic follow-ups and negotiation techniques. We ensure compliance with legal standards to maximize recovery success.</p>
+                        <button class="btn-read" onclick="openModal('modal1')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <div>
+                        <h4>Credit Reporting</h4>
+                        <p>Access accurate credit reports to make well-informed financial decisions. Our reporting system helps assess financial risks and manage lending efficiently. We provide real-time credit monitoring to safeguard businesses from defaults.</p>
+                        <button class="btn-read" onclick="openModal('modal2')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email Support Services</h4>
+                        <p>Deliver seamless customer communication with our structured email support services. Our team handles inquiries, complaints, and feedback with professionalism. Quick response times ensure customer satisfaction and brand loyalty.</p>
+                        <button class="btn-read" onclick="openModal('modal3')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
+                    <div class="icon"><i class="fas fa-chart-pie"></i></div>
+                    <div>
+                        <h4>Debt Collection Consulting</h4>
+                        <p>Improve your debt recovery process with expert consulting services. Our customized solutions help reduce bad debts and financial risks. We ensure ethical and legal compliance to protect your business reputation.</p>
+                        <button class="btn-read" onclick="openModal('modal4')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <h4>Telecalling Services</h4>
+                        <p>Boost sales and customer engagement with expert telecalling services. Our trained agents handle lead generation, follow-ups, and surveys. Personalized interactions build trust and enhance customer retention.</p>
+                        <button class="btn-read" onclick="openModal('modal5')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">
+                    <div class="icon"><i class="fas fa-headset"></i></div>
+                    <div>
+                        <h4>Customer Support Solutions</h4>
+                        <p>Deliver superior customer experiences with our 24/7 support services. Our multi-channel assistance ensures faster query resolution. Improve customer loyalty with responsive and personalized service.</p>
+                        <button class="btn-read" onclick="openModal('modal6')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                    <div class="icon"><i class="fas fa-comments"></i></div>
+                    <div>
+                        <h4>Chat Support Services</h4>
+                        <p>Enhance real-time customer interactions with professional chat support. Our team ensures quick resolutions to improve user satisfaction. Reduce response times and enhance customer retention effortlessly.</p>
+                        <button class="btn-read" onclick="openModal('modal7')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service-detail-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+                    <div class="icon"><i class="fas fa-university"></i></div>
+                    <div>
+                        <h4>Loan Recovery Services</h4>
+                        <p>Recover overdue loans while maintaining professional relationships. Our recovery process follows ethical and legal compliance standards. We create tailored repayment plans to help clients manage debts.</p>
+                        <button class="btn-read" onclick="openModal('modal8')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modal1"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal1')">&times;</button><h2>Commercial Debt Recovery</h2><p>Our debt recovery solutions use ethical and legal methods to retrieve overdue payments. We customize strategies for different industries to ensure effective collection. Our process includes professional negotiations and structured follow-ups. We maintain a balance between collection efforts and customer relationships. With our expert team, businesses can reduce financial losses significantly. Let us help you recover funds while ensuring customer satisfaction.</p></div></div>
+    <div class="modal-overlay" id="modal2"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal2')">&times;</button><h2>Credit Reporting</h2><p>We provide in-depth financial insights to help businesses assess creditworthiness. Our credit reports analyze payment history, defaults, and risk factors. Get real-time updates on credit scores and financial standing. Our service helps businesses make smarter lending decisions. We ensure compliance with financial regulations and privacy standards. Stay ahead in the competitive market with accurate credit evaluations.</p></div></div>
+    <div class="modal-overlay" id="modal3"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal3')">&times;</button><h2>Email Support Services</h2><p>Our email support services provide fast and efficient customer query resolutions. We ensure timely responses to inquiries, complaints, and feedback. Our trained support team enhances brand loyalty through professional communication. Businesses can focus on core operations while we handle customer engagement. We offer 24/7 support to ensure no query goes unanswered. Increase productivity and customer satisfaction with our expert email support.</p></div></div>
+    <div class="modal-overlay" id="modal4"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal4')">&times;</button><h2>Debt Collection Consulting</h2><p>We provide expert consulting to help businesses improve their debt collection strategies. Our team analyzes current collection processes and suggests proven methodologies. Reduce bad debts and enhance financial stability with structured recovery plans. We train your staff on best practices for ethical and legal collections. Our consulting services are tailored to suit different industry needs. Gain higher recovery rates while maintaining positive customer relationships.</p></div></div>
+    <div class="modal-overlay" id="modal5"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal5')">&times;</button><h2>Telecalling Services</h2><p>Enhance your sales and customer engagement with our telecalling services. Our team specializes in lead generation, follow-ups, and customer retention. We conduct personalized outreach to build trust and rapport with clients. Our data-driven approach ensures higher conversion rates and improved satisfaction. Multilingual support enables businesses to reach a wider audience. Maximize revenue growth with our professional telecalling solutions.</p></div></div>
+    <div class="modal-overlay" id="modal6"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal6')">&times;</button><h2>Customer Support Solutions</h2><p>Our customer support solutions provide round-the-clock assistance for businesses. We ensure fast and efficient problem resolution across multiple communication channels. Our trained representatives offer personalized customer interactions. Improve retention rates by delivering superior customer service experiences. We use cutting-edge CRM tools to track and manage inquiries seamlessly. Elevate your brand reputation with exceptional customer service support.</p></div></div>
+    <div class="modal-overlay" id="modal7"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal7')">&times;</button><h2>Chat Support Services</h2><p>Provide real-time customer assistance with our professional chat support services. Our chat agents respond instantly to customer queries, improving satisfaction. We integrate AI-powered chatbots for seamless automated support. Live chat options enhance user engagement and increase website conversions. Our team ensures 24/7 availability for uninterrupted support. Build stronger customer relationships through efficient and friendly chat services.</p></div></div>
+    <div class="modal-overlay" id="modal8"><div class="modal-box"><button class="modal-close" onclick="closeModal('modal8')">&times;</button><h2>Loan Recovery Services</h2><p>We offer ethical and effective loan recovery services to minimize financial losses. Our customized repayment plans help borrowers manage debts responsibly. Our team follows legal guidelines to ensure compliance with financial regulations. We provide professional negotiations to achieve successful loan recoveries. Businesses can reduce default rates with our strategic recovery processes. Trust our expertise to maximize loan recoveries while maintaining positive client relations.</p></div></div>
+
+    <section class="section" style="background:var(--off-white);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+                <span class="section-label">Case Studies</span>
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Discover how our expert solutions have transformed businesses and improved customer engagement.</p>
+            </div>
+            <div class="case-studies-grid">
+                <div class="case-study-card" data-aos="fade-up" data-aos-duration="600">
+                    <img src="/images/case_study_1.png" alt="Case Study 1" />
+                    <div class="case-study-body">
+                        <h4>Boosting Debt Recovery by 40%</h4>
+                        <p>We helped a financial firm optimize their debt collection strategy, increasing recovery rates by 40% within six months. Our customized follow-up techniques and AI-driven analytics enhanced efficiency.</p>
+                    </div>
+                </div>
+                <div class="case-study-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <img src="/images/case_study_2.png" alt="Case Study 2" />
+                    <div class="case-study-body">
+                        <h4>Enhancing Telemarketing Conversions</h4>
+                        <p>Through data-driven telemarketing solutions, we increased conversion rates by 25% for an e-commerce client. Personalized scripts and strategic follow-ups played a key role in this success.</p>
+                    </div>
+                </div>
+                <div class="case-study-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <img src="/images/case_study_3.png" alt="Case Study 3" />
+                    <div class="case-study-body">
+                        <h4>Improving Customer Support Efficiency</h4>
+                        <p>Our client reduced customer response times by 50% with our AI-powered chat and email support. This resulted in higher satisfaction scores and repeat customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a href="https://wa.me/9180XXXXXXXX?text=Hello%20FairDebt%20Solutions" class="whatsapp-float" target="_blank" rel="noopener" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1350,50 1440,40 L1440,80 L0,80 Z" fill="#0f1b2d"/>
+            </svg>
+        </div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand" data-aos="fade-up" data-aos-duration="800">
+                        <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+                        <h3>Fairdebt Solutions Private Limited</h3>
+                        <p>Your trusted partner for debt collection, customer support, and BPO services since 2021.</p>
+                        <div class="footer-social">
+                            <button onclick="visitInstagram()" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                            <button onclick="sendEmail()" aria-label="Email"><i class="fas fa-envelope"></i></button>
+                            <button onclick="visitTwitter()" aria-label="Twitter"><i class="fab fa-twitter"></i></button>
+                            <button onclick="visitLinkedIn()" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="/telicalling/">Telecalling</a></li>
+                            <li><a href="/chat-support/">Chat Support</a></li>
+                            <li><a href="/email-support/">Email Support</a></li>
+                            <li><a href="/customer-support/">Customer Support</a></li>
+                            <li><a href="/services/">All Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="/about/">About Us</a></li>
+                            <li><a href="/clients/">Partner with Us</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="/faq/">FAQ</a></li>
+                            <li><a href="/career/">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <h4>Contact</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-globe"></i> <a href="https://www.fairdebt.in" target="_blank">www.fairdebt.in</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:superadmin@fairdebt.in">superadmin@fairdebt.in</a></p>
+                            <p><i class="fas fa-map-marker-alt"></i> 2744, 15th Cross, HSR Layout, Bengaluru 560102</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; <span class="copyright-year">2025</span> Fairdebt Solutions Private Limited. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy/">Privacy Policy</a>
+                    <a href="/terms/">Terms &amp; Conditions</a>
+                    <a href="/corporate/">Corporate Info</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

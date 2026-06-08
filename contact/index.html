@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - FairDebt Solutions | Get in Touch</title>
+    <meta name="description" content="Contact FairDebt Solutions for professional debt recovery, telecalling, customer support, and business process outsourcing services. Reach us via form, email, or phone." />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/services/">Services</a>
+                <a href="/career/">Careers</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/blog/">Blog</a>
+                <a href="/contact/" class="active nav-cta-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="shape-blob shape-blob-1"></div>
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="800">Contact Us</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">We'd love to hear from you! Get in touch with our team.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-card" data-aos="fade-right" data-aos-duration="800">
+                    <h3>Let's Talk</h3>
+                    <p>Reach out to us through any of the channels below.</p>
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="500">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <p>2744, 15th Cross, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102</p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <p><a href="mailto:superadmin@fairdebt.in">superadmin@fairdebt.in</a></p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <div class="icon"><i class="fas fa-globe"></i></div>
+                        <p><a href="https://fairdebt.in" target="_blank">fairdebt.in</a></p>
+                    </div>
+                    <div class="map-wrap" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9776564423297!2d77.640946!3d12.911716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14c6e0c3b4c7%3A0x6c8f7c8f8c8f8c8f!2sHSR%20Layout%2C%20Bengaluru%2C%20Karnataka%20560102!5e0!3m2!1sen!2sin!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="FairDebt Solutions Office Location"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form-card" data-aos="fade-left" data-aos-duration="800">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required />
+                            <div class="error-message">Name is required.</div>
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="50">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
+                            <div class="error-message">Enter a valid email.</div>
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <label for="mobile">Mobile Number</label>
+                            <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="10-digit mobile number" pattern="[0-9]{10}" required />
+                            <div class="error-message">Enter a valid 10-digit mobile number.</div>
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Write your message here..." rows="4" required></textarea>
+                            <div class="error-message">Message cannot be empty.</div>
+                        </div>
+                        <div class="form-group" style="margin-bottom:0;" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+                            <button type="submit" class="btn-submit">Send Message <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="success-modal" id="successModal">
+        <div class="success-modal-content">
+            <div class="icon"><i class="fas fa-check"></i></div>
+            <h3>Success!</h3>
+            <p>Thank you for contacting us! Your details have been successfully submitted.</p>
+            <button class="btn-modal-close" onclick="closeModal('successModal')">Close</button>
+        </div>
+    </div>
+
+
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a href="https://wa.me/9180XXXXXXXX?text=Hello%20FairDebt%20Solutions" class="whatsapp-float" target="_blank" rel="noopener" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1350,50 1440,40 L1440,80 L0,80 Z" fill="#0f1b2d"/>
+            </svg>
+        </div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand" data-aos="fade-up" data-aos-duration="800">
+                        <img src="/images/company_logo.png" alt="FairDebt Solutions" />
+                        <h3>Fairdebt Solutions Private Limited</h3>
+                        <p>Your trusted partner for debt collection, customer support, and BPO services since 2021.</p>
+                        <div class="footer-social">
+                            <button onclick="visitInstagram()" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                            <button onclick="sendEmail()" aria-label="Email"><i class="fas fa-envelope"></i></button>
+                            <button onclick="visitTwitter()" aria-label="Twitter"><i class="fab fa-twitter"></i></button>
+                            <button onclick="visitLinkedIn()" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="/telicalling/">Telecalling</a></li>
+                            <li><a href="/chat-support/">Chat Support</a></li>
+                            <li><a href="/email-support/">Email Support</a></li>
+                            <li><a href="/customer-support/">Customer Support</a></li>
+                            <li><a href="/services/">All Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="/about/">About Us</a></li>
+                            <li><a href="/clients/">Partner with Us</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="/faq/">FAQ</a></li>
+                            <li><a href="/career/">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <h4>Contact</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-globe"></i> <a href="https://www.fairdebt.in" target="_blank">www.fairdebt.in</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:superadmin@fairdebt.in">superadmin@fairdebt.in</a></p>
+                            <p><i class="fas fa-map-marker-alt"></i> 2744, 15th Cross, HSR Layout, Bengaluru 560102</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; <span class="copyright-year">2025</span> Fairdebt Solutions Private Limited. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy/">Privacy Policy</a>
+                    <a href="/terms/">Terms &amp; Conditions</a>
+                    <a href="/corporate/">Corporate Info</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
